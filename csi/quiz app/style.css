@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #4caf50;
+;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    /* margin: 10px; */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+.child2{
+    background-image: url(./assests/blue-1273089_1280.webp);
+
+}
